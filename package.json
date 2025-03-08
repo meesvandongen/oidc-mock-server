@@ -7,13 +7,15 @@
 	},
 	"dependencies": {
 		"@elysiajs/cors": "^1.2.0",
-		"elysia": "^1.2.13",
-		"jose": "^5.9.6"
+		"@elysiajs/node": "^1.2.6",
+		"@elysiajs/swagger": "^1.2.2",
+		"@universal-middleware/express": "^0.4.8",
+		"elysia": "^1.2.25",
+		"jose": "^6.0.8"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"bun-types": "^1.2.2",
-		"fast-check": "^3.23.2"
-	},
-	"module": "src/index.js"
+		"vite": "^6.2.1",
+		"bun-types": "^1.2.4"
+	}
 }
