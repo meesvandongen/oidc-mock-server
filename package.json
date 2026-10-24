@@ -9,7 +9,7 @@
 		"@elysiajs/cors": "^1.2.0",
 		"@elysiajs/node": "^1.2.6",
 		"@elysiajs/swagger": "^1.2.2",
-		"@universal-middleware/express": "^0.4.8",
+		"@universal-middleware/express": "^0.6.0",
 		"elysia": "^1.2.25",
 		"jose": "^6.0.8"
 	},
