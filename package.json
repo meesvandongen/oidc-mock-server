@@ -2,8 +2,10 @@
 	"name": "oidc-mock-server",
 	"version": "1.0.50",
 	"scripts": {
-		"test": "bun test",
-		"dev": "bun run --watch src/index.ts"
+		"test": "vp test run --passWithNoTests",
+		"dev": "bun --watch src/run.ts",
+		"lint": "vp lint",
+		"fmt": "vp fmt"
 	},
 	"dependencies": {
 		"@elysiajs/cors": "^1.2.0",
@@ -14,8 +16,9 @@
 		"jose": "^6.0.8"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
-		"vite": "^6.2.1",
-		"bun-types": "^1.2.4"
-	}
+		"bun-types": "^1.2.4",
+		"vite": "catalog:",
+		"vite-plus": "catalog:"
+	},
+	"packageManager": "pnpm@12.15.0+sha512.b3951d6d6ff4a9f13dc7cf56cd28d2b8eb37dbcc9c68e52e1e1191873ea9f82a017287ab50baadc5ccc494f036c67c0e47eb13608c2fa36f47711b61ea128e61"
 }
