@@ -4,8 +4,6 @@ import { Elysia, t } from "elysia";
 import { type JWTPayload, SignJWT, importJWK } from "jose";
 import { privateJwk, publicJwk } from "./jwks";
 
-
-
 export interface CreateServerOptions {
 	issuer?: string;
 }

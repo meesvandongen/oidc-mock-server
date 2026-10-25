@@ -1,15 +1,22 @@
 # Elysia with Bun runtime
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
+Install dependencies with pnpm (pinned through corepack in `package.json`; pnpm 12 needs corepack 0.36 or newer):
 ```bash
-bun create elysia ./elysia-example
+npm install -g corepack@latest && corepack enable
+pnpm install
 ```
 
 ## Development
-To start the development server run:
+The server runs on [Bun](https://bun.sh). To start the development server run:
 ```bash
-bun run dev
+pnpm run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+Lint and format with Vite+:
+```bash
+pnpm run lint
+pnpm run fmt
+```
